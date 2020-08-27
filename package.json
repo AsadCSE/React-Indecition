@@ -8,8 +8,8 @@
   "main": "index.js",
   "scripts": {
     "serve": "live-server public",
-    "build": "webpack --config webpack.prod.js",
-    "start": "webpack-dev-server --open --config webpack.dev.js"
+    "build": "webpack",
+    "start": "live-server public"
   },
   "keywords": [],
   "author": "",
